@@ -20,7 +20,7 @@
     <!-- General styles -->
 
     <style name="SuwThemeGlifV2" parent="SuwThemeGlif">
-        <item name="android:colorBackground">@color/suw_glif_v2_background_color_dark</item>
+        <item name="android:colorBackground">@color/suw_glif_background_color_dark</item>
         <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
 
         <item name="suwBackgroundBaseColor">?android:attr/colorBackground</item>
@@ -36,7 +36,7 @@
     <style name="SuwThemeGlifPixel" parent="SuwThemeGlifV2" />
 
     <style name="SuwThemeGlifV2.Light" parent="SuwThemeGlif.Light">
-        <item name="android:colorBackground">@color/suw_glif_v2_background_color_light</item>
+        <item name="android:colorBackground">@color/suw_glif_background_color_light</item>
         <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
 
         <item name="suwBackgroundBaseColor">?android:attr/colorBackground</item>
@@ -194,6 +194,8 @@
          which aligns the text label. -->
     <style name="SuwGlifButtonBar">
         <item name="android:baselineAligned">false</item>
+        <item name="android:clipChildren">false</item>
+        <item name="android:clipToPadding">false</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:minHeight">@dimen/suw_glif_footer_min_height</item>
         <item name="android:orientation">horizontal</item>
@@ -244,6 +246,7 @@
         <item name="android:layout_marginLeft">?attr/suwMarginSides</item>
         <item name="android:layout_marginRight">?attr/suwMarginSides</item>
         <item name="android:layout_marginTop">@dimen/suw_glif_header_title_margin_top</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">google-sans</item>
         <item name="android:textAlignment" tools:targetApi="jelly_bean_mr1">gravity</item>
         <item name="android:textColor">?android:attr/textColorPrimary</item>
     </style>
