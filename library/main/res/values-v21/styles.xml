@@ -36,6 +36,12 @@
         <item name="android:background">?android:attr/colorPrimary</item>
     </style>
 
+    <!-- Button styles -->
+
+    <style name="SuwGlifButton.Tertiary" parent="SuwGlifButton.BaseTertiary">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
     <!-- Items styles -->
 
     <style name="SuwItemContainer">
@@ -52,16 +58,6 @@
 
     <style name="SuwItemSummary">
         <item name="android:textAppearance">?android:attr/textAppearanceListItemSmall</item>
-    </style>
-
-    <!-- Button styles -->
-
-    <style name="SuwButtonItem" />
-
-    <style name="SuwButtonItem.Colored">
-        <item name="android:buttonStyle">@android:style/Widget.Material.Button</item>
-        <item name="android:colorButtonNormal">?android:attr/colorAccent</item>
-        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
     </style>
 
     <!-- Navigation bar styles -->
