@@ -19,6 +19,8 @@
 
     <attr name="suwHasStableIds" format="boolean|reference" />
 
+    <attr name="selectableItemBackground" format="reference" />
+
     <declare-styleable name="SuwRecyclerItemAdapter">
         <attr name="android:colorBackground" />
         <attr name="android:selectableItemBackground" />
