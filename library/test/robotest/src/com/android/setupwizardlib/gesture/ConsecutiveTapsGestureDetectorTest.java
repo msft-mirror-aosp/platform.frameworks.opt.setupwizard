@@ -16,7 +16,7 @@
 
 package com.android.setupwizardlib.gesture;
 
-import static org.mockito.Matchers.eq;
+import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.inOrder;
 import static org.robolectric.RuntimeEnvironment.application;
 
